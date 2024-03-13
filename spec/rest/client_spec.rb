@@ -1,4 +1,4 @@
-#asd   
+#asd    
 require 'spec_helper'
 require 'logger'
 
