@@ -1,6 +1,7 @@
 require 'spec_helper'
 require 'rack/mock'
 
+
 describe Rack::TwilioWebhookAuthentication do
   before do
     @app = ->(_env) { [200, { 'Content-Type' => 'text/plain' }, ['Hello']] }
